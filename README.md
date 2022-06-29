@@ -1,2 +1,3 @@
 # CSharp.Homeworks
-This is my homework repository
+IT Academy C# base course, homework repository.
+
