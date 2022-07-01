@@ -3,6 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
+
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.01.Casting", "hw_02\HW.01.Casting\HW.01.Casting.csproj", "{C968C67B-DD58-497F-89D7-F6A36607FF51}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.02.Types", "hw_02\HW.02.Types\HW.02.Types.csproj", "{3D28A144-12B3-4A0A-A50F-B121E8745E47}"
@@ -13,12 +14,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.04.Image", "hw_02\HW.04.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.05.DecimalToBinary", "hw_02\HW.05.DecimalToBinary\HW.05.DecimalToBinary.csproj", "{A49C9167-26D6-4DD4-83F8-144A66B1E297}"
 EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+
 		{C968C67B-DD58-497F-89D7-F6A36607FF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C968C67B-DD58-497F-89D7-F6A36607FF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C968C67B-DD58-497F-89D7-F6A36607FF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +42,9 @@ Global
 		{A49C9167-26D6-4DD4-83F8-144A66B1E297}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A49C9167-26D6-4DD4-83F8-144A66B1E297}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A49C9167-26D6-4DD4-83F8-144A66B1E297}.Release|Any CPU.Build.0 = Release|Any CPU
+
+    
+
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
