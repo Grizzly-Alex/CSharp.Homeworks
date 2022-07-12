@@ -25,7 +25,7 @@ if (discrim < 0)
 {
     Console.WriteLine("No roots.");
 }
-else if (discrim == 0)
+else if (discrim.Equals(0))
 {
     double x1 = (-b + rootOfDiscrim) / (2 * a);
     Console.WriteLine("Root equals: " + Math.Round(x1, numRound));
