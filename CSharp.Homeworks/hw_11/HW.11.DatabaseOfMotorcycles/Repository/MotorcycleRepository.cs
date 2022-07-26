@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HW._11.DatabaseOfMotorcycles;
 using Serilog;
 
 namespace HW._11.DatabaseOfMotorcycles.Repository
 {
     internal class MotorcycleRepository : IMotorcycleRepository<Motorcycle>
     {
-      
-
         private static List<Motorcycle> motorcycles = new();
 
         public void CreateMotorcycle(params Motorcycle[] motorcycle)
@@ -26,7 +25,7 @@ namespace HW._11.DatabaseOfMotorcycles.Repository
                 }
                 else
                 {                 
-                    Log.Information("[Error]: Object reference is null");
+                    Log.Error("Object reference is null");
                     throw new NullReferenceException();
                 }              
             }           
@@ -52,7 +51,7 @@ namespace HW._11.DatabaseOfMotorcycles.Repository
             {
                 if(foundMotot is null)
                 {
-                    throw new Exception("MotorcycleNotFoundException");
+                    throw new MotorcycleNotFoundException("Motorcycle not found");
                 }
                 else
                 {
@@ -60,9 +59,9 @@ namespace HW._11.DatabaseOfMotorcycles.Repository
                     motorcycles.Remove(foundMotot);                    
                 }
             }
-            catch (Exception ex)
+            catch (MotorcycleNotFoundException ex)
             {
-                Log.Error(ex, "[Error]: motorcycle not found");
+                Log.Error(ex, "Motorcycle not found");
             }           
         }
 
@@ -86,20 +85,19 @@ namespace HW._11.DatabaseOfMotorcycles.Repository
             {
                 if (foundMotot is null)
                 {
-                    throw new Exception("MotorcycleNotFoundException");
+                    throw new MotorcycleNotFoundException("Motorcycle not found");
                 }
             }
-            catch (Exception ex)
+            catch (MotorcycleNotFoundException ex)
             {
-                Log.Error(ex, "[Error]: Motorcycle not found");
+                Log.Error(ex, "Motorcycle not found");
             }
 
             return foundMotot;
         }
          
         public List<Motorcycle> GetMotorcycles()
-        {
-            Log.Information("Get all motorcycles");
+        {           
             return motorcycles;
         }
 
@@ -129,12 +127,12 @@ namespace HW._11.DatabaseOfMotorcycles.Repository
                 {
                     if (!foundMoto)
                     {
-                        throw new Exception("MotorcycleNotFoundException");
+                        throw new MotorcycleNotFoundException("Motorcycle not found");
                     }   
                 }
-                catch(Exception ex)
+                catch(MotorcycleNotFoundException ex)
                 {
-                    Log.Error(ex, "[Error]: Motorcycle not found");
+                    Log.Error(ex, "Motorcycle not found");
                 }
             }
             else

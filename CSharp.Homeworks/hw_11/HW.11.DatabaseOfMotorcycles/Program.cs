@@ -3,16 +3,13 @@ using HW._11.DatabaseOfMotorcycles.Menu;
 using static System.Console;
 using Serilog;
 
-
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Verbose()
     //.WriteTo.Console() замутировал вывод лога на консоль, так как это ломает консольное меню. 
     .WriteTo.File("logs/log.txt", rollingInterval: RollingInterval.Hour)
     .CreateLogger();
 Log.Information($"App name: \"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}\"");
-
-
-Log.Information($"application started at {DateTime.UtcNow}");
+Log.Information($"Application started at {DateTime.UtcNow}");
 
 
 MotorcycleRepository repository = new();
@@ -61,9 +58,7 @@ Main();
 
 void Main()
 {
-
-
-    //Clear();
+    Clear();
     CursorVisible = false;
     
     List<String> strings = new List<string> { "Show all list", "Add motorcycle", "Exit"};
@@ -95,11 +90,26 @@ void List()
     Clear();
     CursorVisible = false;
 
-    List<Object> item = new(repository.GetMotorcycles());
-    int selected = menu.ShowGraphicSelection(item, "~[LIST OF MOTORCYCLES]~\n");
-    Guid selecetId = repository.GetMotorcycles()[selected].GetId();
+    int selected;
+    Guid selecetId;
 
-    MotoMenu(selecetId);
+    List<Object> item = new(repository.GetMotorcycles());
+ 
+    if (item.Count > 0)
+    {
+        selected = menu.ShowGraphicSelection(item, "~[LIST OF MOTORCYCLES]~\n");
+        selecetId = repository.GetMotorcycles()[selected].GetId();
+        MotoMenu(selecetId);
+    }
+    else
+    {
+        Log.Information("The list is empty");
+
+        WriteLine("\tThe list is empty!");
+        ReadLine();
+        Main();
+    }
+  
 }
 
 void MotoMenu(Guid id)
