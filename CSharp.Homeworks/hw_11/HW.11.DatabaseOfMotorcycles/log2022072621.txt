@@ -1,0 +1,50 @@
+2022-07-26 21:08:28.023 +03:00 [INF] App name: "HW.11.DatabaseOfMotorcycles"
+2022-07-26 21:08:28.049 +03:00 [INF] application started at 26.07.2022 18:08:28
+2022-07-26 21:08:28.050 +03:00 [INF] Motorcycle created: Name: Harley-Davidson, Model: Livewire, Year: 2022, Odometer: 0km, Id: d66d9287-f428-4d12-b9aa-780bac973843
+2022-07-26 21:08:28.050 +03:00 [INF] Motorcycle created: Name: Harley-Davidson, Model: Fat Bob, Year: 2022, Odometer: 0km, Id: 2bc19223-aaf0-4a5d-affa-96a6c12357f3
+2022-07-26 21:08:28.050 +03:00 [INF] Motorcycle created: Name: Harley-Davidson, Model: Nighter, Year: 2022, Odometer: 0km, Id: 5d959b16-7c8c-44b1-932a-26f6c28a9a2b
+2022-07-26 21:08:28.050 +03:00 [INF] Motorcycle created: Name: Harley-Davidson, Model: Pan America, Year: 2022, Odometer: 0km, Id: 3b16acc7-0e50-4d3c-874e-afa027e5a3e8
+2022-07-26 21:08:28.050 +03:00 [INF] Motorcycle created: Name: Harley-Davidson, Model: Sportster, Year: 2022, Odometer: 0km, Id: 3b91a0d2-6596-449a-b6ed-5c4111c86247
+2022-07-26 21:08:28.050 +03:00 [INF] Motorcycle created: Name: Harley-Davidson, Model: Street Bob, Year: 2022, Odometer: 0km, Id: 19266df1-70fd-4f5c-bf6f-8003e3e2ad86
+2022-07-26 21:08:28.050 +03:00 [INF] Motorcycle created: Name: Harley-Davidson, Model: Low Rider, Year: 2022, Odometer: 0km, Id: 7dcf660b-2c5f-4d24-a7c0-c6e8382e3210
+2022-07-26 21:08:28.050 +03:00 [INF] Motorcycle created: Name: Harley-Davidson, Model: Glide, Year: 2022, Odometer: 0km, Id: fb2a66f5-f852-415f-9d6f-84ed7d0dcaf4
+2022-07-26 21:08:28.050 +03:00 [INF] Motorcycle created: Name: Harley-Davidson, Model: Breakout, Year: 2022, Odometer: 0km, Id: 9ac62234-a6bf-41ef-b9e0-626a2290acc7
+2022-07-26 21:08:28.051 +03:00 [INF] Motorcycle created: Name: Harley-Davidson, Model: Road King, Year: 2022, Odometer: 0km, Id: 057cb93b-7cd7-4481-8ff7-f8a3d5685804
+2022-07-26 21:08:28.051 +03:00 [INF] Motorcycle created: Name: Ducati, Model: Diavel, Year: 2022, Odometer: 0km, Id: d6ccd956-c0df-49f1-af89-d66dfb206ba5
+2022-07-26 21:08:28.051 +03:00 [INF] Motorcycle created: Name: Ducati, Model: Hypermotard, Year: 2022, Odometer: 0km, Id: 25662e0e-a7eb-47d3-9576-3f875baec3ff
+2022-07-26 21:08:28.051 +03:00 [INF] Motorcycle created: Name: Ducati, Model: Monster, Year: 2022, Odometer: 0km, Id: 010107f4-e0a1-42e5-8ff1-2ac3a05a1adc
+2022-07-26 21:08:28.051 +03:00 [INF] Motorcycle created: Name: Ducati, Model: Multistrada, Year: 2022, Odometer: 0km, Id: 6438d353-4981-4c95-8422-8491196e3b13
+2022-07-26 21:08:28.051 +03:00 [INF] Motorcycle created: Name: Ducati, Model: Streetfighter, Year: 2022, Odometer: 0km, Id: b05c14a3-d5fb-4cc4-98d9-939facdebc52
+2022-07-26 21:08:28.051 +03:00 [INF] Motorcycle created: Name: Ducati, Model: Superbike, Year: 2022, Odometer: 0km, Id: 06cb1ab5-aa58-4086-a66f-6fa57a6b2144
+2022-07-26 21:08:28.051 +03:00 [INF] Motorcycle created: Name: Ducati, Model: Scrambler, Year: 2022, Odometer: 0km, Id: 858ef97e-b124-49cc-a19b-ae5ae7bc84e4
+2022-07-26 21:08:28.051 +03:00 [INF] Motorcycle created: Name: Ducati, Model: SuperSport, Year: 2022, Odometer: 0km, Id: 330de5b3-785f-461d-8092-2b4f920664bd
+2022-07-26 21:08:28.051 +03:00 [INF] Started the process of creating a motorcycle
+2022-07-26 21:08:28.051 +03:00 [INF] Add motocycle: Name: Harley-Davidson, Model: Livewire, Year: 2022, Odometer: 0km, Id: d66d9287-f428-4d12-b9aa-780bac973843
+2022-07-26 21:08:28.051 +03:00 [INF] Add motocycle: Name: Ducati, Model: SuperSport, Year: 2022, Odometer: 0km, Id: 330de5b3-785f-461d-8092-2b4f920664bd
+2022-07-26 21:08:30.472 +03:00 [INF] Started the list menu
+2022-07-26 21:08:31.694 +03:00 [INF] Started the action menu
+2022-07-26 21:08:32.702 +03:00 [INF] Started the process of searching motorcycle by id
+2022-07-26 21:08:32.702 +03:00 [INF] Motorcycle found: Name: Harley-Davidson, Model: Livewire, Year: 2022, Odometer: 0km, Id: d66d9287-f428-4d12-b9aa-780bac973843
+2022-07-26 21:08:32.702 +03:00 [INF] Started the process of searching motorcycle by id
+2022-07-26 21:08:32.702 +03:00 [INF] Motorcycle found: Name: Harley-Davidson, Model: Livewire, Year: 2022, Odometer: 0km, Id: d66d9287-f428-4d12-b9aa-780bac973843
+2022-07-26 21:08:32.702 +03:00 [INF] Started the process of deleting the motorcycle
+2022-07-26 21:08:32.702 +03:00 [INF] Motorcycle found
+2022-07-26 21:08:32.703 +03:00 [INF] Motorcycle remove: Name: Harley-Davidson, Model: Livewire, Year: 2022, Odometer: 0km, Id: d66d9287-f428-4d12-b9aa-780bac973843
+2022-07-26 21:08:34.833 +03:00 [INF] Started the list menu
+2022-07-26 21:08:36.061 +03:00 [INF] Started the action menu
+2022-07-26 21:08:37.317 +03:00 [INF] Started the process of searching motorcycle by id
+2022-07-26 21:08:37.317 +03:00 [INF] Motorcycle found: Name: Ducati, Model: SuperSport, Year: 2022, Odometer: 0km, Id: 330de5b3-785f-461d-8092-2b4f920664bd
+2022-07-26 21:08:37.317 +03:00 [INF] Started the process of searching motorcycle by id
+2022-07-26 21:08:37.318 +03:00 [INF] Motorcycle found: Name: Ducati, Model: SuperSport, Year: 2022, Odometer: 0km, Id: 330de5b3-785f-461d-8092-2b4f920664bd
+2022-07-26 21:08:37.318 +03:00 [INF] Started the process of deleting the motorcycle
+2022-07-26 21:08:37.318 +03:00 [INF] Motorcycle found
+2022-07-26 21:08:37.318 +03:00 [INF] Motorcycle remove: Name: Ducati, Model: SuperSport, Year: 2022, Odometer: 0km, Id: 330de5b3-785f-461d-8092-2b4f920664bd
+2022-07-26 21:08:39.289 +03:00 [INF] Started the list menu
+2022-07-26 21:08:39.336 +03:00 [INF] The list is empty
+2022-07-26 21:08:42.317 +03:00 [INF] Started the created motorcycle menu
+2022-07-26 21:09:12.378 +03:00 [INF] Motorcycle created: Name: Ducati, Model: Monster, Year: 2022, Odometer: 0km, Id: 9c046444-8901-4949-aa8c-2c9ebcadbcae
+2022-07-26 21:09:12.379 +03:00 [INF] Started the process of creating a motorcycle
+2022-07-26 21:09:12.379 +03:00 [INF] Add motocycle: Name: Ducati, Model: Monster, Year: 2022, Odometer: 0km, Id: 9c046444-8901-4949-aa8c-2c9ebcadbcae
+2022-07-26 21:09:13.766 +03:00 [INF] Started the list menu
+2022-07-26 21:09:16.006 +03:00 [INF] Started the action menu
+2022-07-26 21:09:19.237 +03:00 [INF] Application stoped at 26.07.2022 18:09:19
