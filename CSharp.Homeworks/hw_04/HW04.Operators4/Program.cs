@@ -59,7 +59,7 @@ while (!(int.TryParse(Console.ReadLine(), out result)))
 }
 
 //response processing
-if (answer == result)
+if (answer.Equals(result))
 {
     Console.WriteLine("Answer is correct!");
 }
